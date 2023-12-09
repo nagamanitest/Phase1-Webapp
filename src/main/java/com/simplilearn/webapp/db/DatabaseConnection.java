@@ -11,7 +11,7 @@ import java.sql.Statement;
 /**
  * This class is for DatabaseConnection.
  * 
- * @author khanw
+ * @author nagamani
  */
 public class DatabaseConnection {
 
@@ -221,15 +221,15 @@ public class DatabaseConnection {
 			// e.printStackTrace();
 		} finally {
 			// clean up
-			try {
-				// step5 : close connection
-				rst.close();
-				statment.close();
-				connection.close();
-				System.out.println("5. Closing the connection.");
-			} catch (SQLException e) {
-				System.out.println("Exception Occured ::: " + e.getClass());
-			}
+//			try {
+//				// step5 : close connection
+//				rst.close();
+//				statment.close();
+//				connection.close();
+//				System.out.println("5. Closing the connection.");
+//			} catch (SQLException e) {
+//				System.out.println("Exception Occured ::: " + e.getClass());
+//			}
 
 		}
 
